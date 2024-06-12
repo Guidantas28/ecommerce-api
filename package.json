@@ -8,7 +8,7 @@
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi",
-    "postinstall" : "patch-package"
+    "postinstall": "patch-package"
   },
   "devDependencies": {},
   "dependencies": {
@@ -18,12 +18,14 @@
     "@strapi/plugin-i18n": "4.24.5",
     "@strapi/plugin-users-permissions": "4.24.5",
     "@strapi/strapi": "4.24.5",
+    "jsom": "^1.0.0",
     "patch-package": "^8.0.0",
     "pg": "8.8.0",
     "postinstall-postinstall": "^2.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "slugify": "^1.6.6",
     "styled-components": "5.3.3"
   },
   "author": {
